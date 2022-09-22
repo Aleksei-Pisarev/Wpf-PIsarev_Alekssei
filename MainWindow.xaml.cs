@@ -24,5 +24,10 @@ namespace Wpf_PIsarev_Alekssei
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Привет, группа ИСП!");
+        }
     }
 }
