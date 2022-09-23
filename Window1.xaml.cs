@@ -23,5 +23,10 @@ namespace Wpf_PIsarev_Alekssei
         {
             InitializeComponent();
         }
+        private void Win1_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+        }
     }
 }

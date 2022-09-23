@@ -29,5 +29,10 @@ namespace Wpf_PIsarev_Alekssei
         {
             MessageBox.Show("Привет, группа ИСП!");
         }
+        private void Win1_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+        }
     }
 }
