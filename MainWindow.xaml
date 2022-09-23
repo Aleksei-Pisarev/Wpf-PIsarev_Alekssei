@@ -30,7 +30,7 @@
             <RowDefinition Height="216*"/>
             <RowDefinition Height="30*"/>
         </Grid.RowDefinitions>
-        <Button x:Name="Btnl" Height="50" Width="200" Content="Обычная кнопка" Margin="361,1.053,39,82" Grid.Row="3" Click="Button_Click" Grid.Column="1">
+        <Button x:Name="Btnl" Height="50" Content="Обычная кнопка" Margin="0,0,460,25" Grid.Row="1" Click="Button_Click" Grid.Column="1" Grid.RowSpan="2">
             <Button.Background>
                 <LinearGradientBrush>
                     <LinearGradientBrush.GradientStops>
@@ -41,7 +41,9 @@
             </Button.Background>
         </Button>
         <Canvas>
-            <Button x:Name="Win1" Canvas.Left="40" Canvas.Top="10" Height="50" Width="100" Content="Win1" Click="Win1_Click"></Button>
+            <Button x:Name="Win1" Canvas.Left="57" Canvas.Top="106" Height="50" Width="100" Content="Win1" Click="Win1_Click"></Button>
+            <Button x:Name="Win2" Canvas.Left="176" Canvas.Top="106" Height="50" Width="100" Content="Win2" Click="Win2_Click"></Button>
+
         </Canvas>
     </Grid>
 </Window>
