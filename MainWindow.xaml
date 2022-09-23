@@ -42,8 +42,11 @@
         </Button>
         <Canvas>
             <Button x:Name="Win1" Canvas.Left="57" Canvas.Top="106" Height="50" Width="100" Content="Win1" Click="Win1_Click"></Button>
-            <Button x:Name="Win2" Canvas.Left="176" Canvas.Top="106" Height="50" Width="100" Content="Win2" Click="Win2_Click"></Button>
-
+            <Button x:Name="Win2" Canvas.Left="57" Canvas.Top="161" Height="50" Width="100" Content="Win2" Click="Win2_Click"></Button>
+            <Button x:Name="Win3" Canvas.Left="57" Canvas.Top="216" Height="50" Width="100" Content="Win3" Click="Win3_Click"></Button>
+            <Button x:Name="Win4" Canvas.Left="57" Canvas.Top="271" Height="50" Width="100" Content="Win4" Click="Win4_Click"></Button>
+            <Button x:Name="Win5" Canvas.Left="57" Canvas.Top="326" Height="50" Width="100" Content="Win5" Click="Win5_Click"></Button>
+            <Button x:Name="Win6" Canvas.Left="57" Canvas.Top="381" Height="50" Width="100" Content="Win6" Click="Win6_Click"></Button>
         </Canvas>
     </Grid>
 </Window>
