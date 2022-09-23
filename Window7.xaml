@@ -7,7 +7,16 @@
         mc:Ignorable="d"
         Title="Диспетчеры компановки" Height="450" Width="800">
     <Grid>
-        <Canvas>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="61*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="74*"/>
+            <RowDefinition Height="345*"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Canvas Grid.RowSpan="2" Grid.ColumnSpan="2">
             <Label Content="Последние документы" RenderTransformOrigin="190.348,0.51" Margin="10,11,630,382"/>
             <Label Content="1.txt" RenderTransformOrigin="190.348,0.51" Margin="10,42,740,352"/>
             <Label Content="2.txt" RenderTransformOrigin="190.348,0.51" Margin="10,72,740,322"/>
@@ -16,19 +25,22 @@
             <Label Content="5.txt" RenderTransformOrigin="190.348,0.51" Margin="10,162,740,232"/>
             <Label Content="6.txt" RenderTransformOrigin="190.348,0.51" Margin="10,192,740,202"/>
         </Canvas>
-        
-        <Canvas>
-            <Label Content="1.txt" RenderTransformOrigin="190.348,0.51" Canvas.Left="152" Canvas.Top="40"/>
+
+        <Canvas Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Label Content="1.txt" RenderTransformOrigin="190.348,0.51" Canvas.Left="152" FontWeight="Bold" Canvas.Top="40"/>
             <Label Content="2.txt" RenderTransformOrigin="190.348,0.51" Canvas.Left="190" Canvas.Top="40"/>
             <Label Content="3.txt" RenderTransformOrigin="190.348,0.51" Canvas.Left="228" Canvas.Top="40"/>
         </Canvas>
 
-        <Canvas>
+        <Canvas Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,10,0">
             <Button x:Name="Win1" Canvas.Left="155" Canvas.Top="10" Width="100" Content="Открыть" Height="25"></Button>
             <Button x:Name="Win2" Canvas.Left="260" Canvas.Top="10" Width="100" Content="Сохранить" Height="25"></Button>
             <Button x:Name="Win3" Canvas.Left="365" Canvas.Top="10" Width="80" Content="Закрыть" Height="25"></Button>
             <Button x:Name="Win4" Canvas.Left="447" Canvas.Top="10" Width="100" Content="Обработать" Height="25"></Button>
             <Button x:Name="Win5" Canvas.Left="552" Canvas.Top="10" Width="100" Content="О программе" Height="25"></Button>
+
         </Canvas>
+        
+
     </Grid>
 </Window>
