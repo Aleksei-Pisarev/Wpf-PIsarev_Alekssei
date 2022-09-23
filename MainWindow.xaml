@@ -47,6 +47,7 @@
             <Button x:Name="Win4" Canvas.Left="57" Canvas.Top="271" Height="50" Width="100" Content="Win4" Click="Win4_Click"></Button>
             <Button x:Name="Win5" Canvas.Left="57" Canvas.Top="326" Height="50" Width="100" Content="Win5" Click="Win5_Click"></Button>
             <Button x:Name="Win6" Canvas.Left="57" Canvas.Top="381" Height="50" Width="100" Content="Win6" Click="Win6_Click"></Button>
+            <Button x:Name="Win7" Canvas.Left="292" Canvas.Top="18" Height="49" Width="169" Content="Диспетчеры компановки" Click="Win7_Click"></Button>
         </Canvas>
     </Grid>
 </Window>
